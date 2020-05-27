@@ -1,9 +1,9 @@
 const table = document.getElementById('pizza-table');
 
 var pizzas = [
-    {name: 'Hawaii', ingredients: 'Tomatensaus, Kaas, Ham, Ananas', prijs: '8,-'},
-    {name: 'Borromea', ingredients: 'Tomatensaus, Kaas, Ham', prijs: '6,50'},
-    {name: 'Calzone', ingredients: 'Tomatensaus, Mozarella, Salami, Champignons, Geraspte kaas', prijs: '9,50'},
+    {name: 'Hawaii', ingredients: 'Tomatensaus, Kaas, Ham, Ananas', price: '8,-'},
+    {name: 'Borromea', ingredients: 'Tomatensaus, Kaas, Ham', price: '6,50'},
+    {name: 'Calzone', ingredients: 'Tomatensaus, Mozarella, Salami, Champignons, Geraspte kaas', price: '9,50'},
 ];
 
 console.log(pizzas.length);
